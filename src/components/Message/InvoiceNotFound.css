@@ -1,0 +1,8 @@
+.content__message:not(:first-child) {
+  color: #888eb0;
+  font-size: 13px;
+}
+.content__message {
+  display: flex;
+  flex-direction: column;
+}
