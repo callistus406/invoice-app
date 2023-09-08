@@ -1,0 +1,24 @@
+.invoice__display__title {
+  flex: 1;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.invoice__display__title div p {
+  font-size: 0.7rem;
+  color: #9da2be;
+}
+.invoice__display__title div h1 {
+  color: #0c0e16;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.invoice__display__actions {
+  flex: 1;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
