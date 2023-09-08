@@ -1,0 +1,44 @@
+.invoice__content__container {
+  width: 100%;
+  /* border: 1px solid rgb(231, 22, 22); */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: flex;
+  /* padding-top: 4rem; */
+  padding-left: 200px;
+  padding-right: 100px;
+  height: 100vh;
+}
+
+.invoice__content__container .invoice__content {
+  width: 100%;
+  /* height: 500px; */
+  padding-right: 1rem;
+  overflow-y: scroll;
+
+  /* border: 1px solid rgb(184, 156, 156); */
+}
+
+#style-2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #9e9d9d;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 10px;
+  background-color: #dfe3fa;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(223, 227, 250);
+  background-color: rgb(223, 227, 250);
+}
+.invoice__not__found {
+  /* height: 500px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
