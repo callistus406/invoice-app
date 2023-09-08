@@ -1,0 +1,89 @@
+:root {
+  --font-size: 0.8rem;
+  --font-weight: 800;
+}
+
+.invoice__container {
+  width: 47rem;
+  border-radius: 5px;
+  /* padding: 1rem; */
+  /* border: 1px solid blue; */
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+body {
+  background-color: #f8f8fb;
+}
+
+.invoice__container .content__partition_one {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  font-size: var(--font-size);
+}
+
+.invoice__container .content__partition_two {
+  /* border: 1px solid rgb(13, 13, 26); */
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size);
+}
+.invoice__container .content__partition_one span:first-child {
+  font-weight: var(--font-weight);
+}
+.invoice__container .content__partition_one > *:not(:first-child) {
+  color: #7e88c3;
+  font-size: 0.7rem;
+}
+.invoice__container .content__partition_two > *:not(:first-child) {
+  color: #33d69f;
+  font-weight: var(--font-weight);
+  display: flex;
+  align-items: center;
+}
+.invoice__container .content__partition_two span:first-child {
+  font-weight: var(--font-weight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invoice__container .content__partition_two > span:nth-child(2) {
+  width: 4rem;
+  background-color: #fff9f0;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.invoice__container .pound__sign {
+  color: #7e88c3;
+}
+
+.invoice__container .indicator {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #33d69f;
+  margin-right: 3px;
+}
+
+.content__message {
+  margin-top: 2rem;
+  text-align: center;
+}
+.content__message:first-child {
+  font-size: 13px;
+  font-weight: 700;
+}
